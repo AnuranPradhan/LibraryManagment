@@ -8,5 +8,6 @@ import org.springframework.stereotype.Repository;
 import net.Xforce.LibraryManagment.Entities.Book;
 @Repository
 public interface BookRepositories extends JpaRepository<Book, Long>{
+
 	  
 }
